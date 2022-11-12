@@ -1,4 +1,4 @@
-Technojam_Tasks
+Technojam_Tasks_DSA
 
 1) Power of 2 - Brute Force Approach - (  running a loop from 2^0 to 2^30 and comparing it with the number ). Time Complexity O(n).
 ![Screenshot (12)](https://user-images.githubusercontent.com/113130698/201444667-835f1d2f-7184-400b-b90b-17e048a3dfcb.png)
@@ -16,8 +16,52 @@ Time complexity - o(n^2)
 We can reduce the time complexity by using the binary search function to O(n logn).
 ![Screenshot (19)](https://user-images.githubusercontent.com/113130698/201445781-93bda910-39bd-4398-abc3-6f556278da75.png)
 ![Screenshot (18)](https://user-images.githubusercontent.com/113130698/201445814-73a6ae68-5547-4de6-ba64-e1a0c8635162.png)
-3)
-## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+3)Are there common factors? - Using Brute Force Approach. Time complexity - O(n).
 
+Algorithm - a) running a loop from 1 to minima of two numbers. Counting their common factors by using mod function.( if a%n=0 it means n is factor of a).
+
+b) Counting the common factors in the loop.
+
+ c) Returning common factors from the function.
+
+ ![Screenshot (36)](https://user-images.githubusercontent.com/113130698/201446722-313a3f5f-643e-4fdc-affd-582c78b56950.png)
+![Screenshot (37)](https://user-images.githubusercontent.com/113130698/201446726-1c929b37-6959-4673-8856-786c86dbec9b.png)
+
+4)69-Problems - Brute Force Approach . Time complexity- O(n) .
+Algorithm - a) finding the index of 6 using while loop.
+
+b) using basic maths to replace 6 with 9 and returning the possible largest number.
+
+![Screenshot (23)](https://user-images.githubusercontent.com/113130698/201447418-7d7ba72a-f61d-444d-90d2-9a5845bfff1b.png)
+![Screenshot (24)](https://user-images.githubusercontent.com/113130698/201447424-4847384b-e55d-4425-8cb5-69a404eef3a5.png)
+
+5)Problem number 5 - Creating a function Possiblecuts to cut the array according to the given problem.
+![Screenshot (29)](https://user-images.githubusercontent.com/113130698/201447622-32c87716-aa4c-4abe-b3d2-a1a9a8d69813.png)
+ Brute Force Approach . Time Complexity - O(n).
+ Algorithm -
+
+  a) Running a loop and comparing one number of the array to the next one( considering array is sorted)
+  
+  b) Checking if sum of two consecutive numbers in an array is greater than or equal to k.
+
+  c) counting all the possiblecuts in the loop .
+
+  d) Returning the count to the main function.
+
+  Checking Outputs 
+
+  ![Screenshot (29)](https://user-images.githubusercontent.com/113130698/201447622-32c87716-aa4c-4abe-b3d2-a1a9a8d69813.png)
+  ![Screenshot (30)](https://user-images.githubusercontent.com/113130698/201447654-bc506c0f-e213-4bfb-949b-a3fd7d4a586f.png)
+
+Medium Problems
+1)Subarray with max bitwise - Time Complexity is 0 (n).
+Algorithm - Using a simple concept that Maximium And Bitwise between two numbers is when two numbers are equal.
+for example first case 4&4 = 4 and in second case 4&2 =0. 
+
+a) Finding out the maximium number in the array.
+
+b) Chec
+![Screenshot (34)](https://user-images.githubusercontent.com/113130698/201448866-7e3aaf5b-fe0f-4585-bf17-26ffe2412f78.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/113130698/201448874-ce9de756-c659-4603-a5c3-ff55e0787df6.png)
+ 
