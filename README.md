@@ -1,10 +1,12 @@
 Technojam_Tasks_DSA
 
-1) Power of 2 - Brute Force Approach - (  running a loop from 2^0 to 2^30 and comparing it with the number ). Time Complexity O(n).
+1) Power of 2 - Algorithm- Brute Force Approach - (  running a loop from 2^0 to 2^30 and comparing it with the number ). Time Complexity O(n).
 ![Screenshot (12)](https://user-images.githubusercontent.com/113130698/201444667-835f1d2f-7184-400b-b90b-17e048a3dfcb.png)
 ![Screenshot (13)](https://user-images.githubusercontent.com/113130698/201444686-a7797064-107d-4494-8542-03e36d6216f9.png)
 
-2)Negative-Positive Existential Crisis- Brute force 
+2)Negative-Positive Existential Crisis- Brute force Approach
+
+Algorithm
  a) sorting the array
 
  b)Starting the first loop from the largest number in reverse order and comparing its negative with the rest of the array.If negative of the number is equal to the number then the number is returned from the function . If no such number exists whose negative exists in the sorted array then -1 is returned from the function.
@@ -61,7 +63,8 @@ for example first case 4&4 = 4 and in second case 4&2 =0.
 
 a) Finding out the maximium number in the array.
 
-b) Chec
+b) Running a loop ( traversing throught the array) and checking if another maximium no exists.Counting all the maximium numbers(if exists).
+c) Returning the count from the function if more than one maximium number exists. Else returning 1 which is the count of maximium number.
 ![Screenshot (34)](https://user-images.githubusercontent.com/113130698/201448866-7e3aaf5b-fe0f-4585-bf17-26ffe2412f78.png)
 ![Screenshot (35)](https://user-images.githubusercontent.com/113130698/201448874-ce9de756-c659-4603-a5c3-ff55e0787df6.png)
  
